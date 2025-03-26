@@ -107,6 +107,10 @@ const generateProductDetailsEmail = (data: EmailData): string => {
           <div class="container">
               <img src="https://res.cloudinary.com/dvggwdqnj/image/upload/v1732138730/logos/acczzgeikyrwbxhup2cb.png" alt="Logo de Toman Jido-ka Ikigai" class="logo">
               <h1>Detalles de Productos Enviados</h1>
+              <h1>¡Gracias por su compra!</h1>
+                <h2>Detalles de Productos</h2>
+                <h2>Fecha de solicitud: ${fecha_actual}</h2>
+                <h2>Correo del cliente: ${data.email}</h2>
               <p>Estimado cliente,</p>
               <p>A continuación encontrará los detalles de los productos que ha solicitado:</p>
               ${productosHTML}
