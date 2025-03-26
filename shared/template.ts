@@ -15,7 +15,7 @@ const generateProductDetailsEmail = (data: EmailData): string => {
               <p><strong>Cantidad:</strong> ${producto.quantity}</p>
               <p class="precio"><strong>Precio:</strong> $${producto.price.toFixed(
                 2
-              )} USD</p>
+              )} MXN</p>
               ${
                 producto.image
                   ? `<p><a href="${producto.image}" class="btn"><span class="btn__text">Ver Imagen</span></a></p>`
